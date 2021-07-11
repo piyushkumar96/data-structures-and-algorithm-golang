@@ -36,7 +36,8 @@ I'm maintaining this repo solely for the purpose of brushing up my DS Algo conce
 
 > Note: This repo contains the topic wise programming Questions and their Solutions in Javascript.
 
-https://seanprashad.com/leetcode-patterns/
-GeeksForGeeks Link.
-Coding Interview University referred by Google Recruiter for Google Interview Preparation Link.
-Note: This repo contains the topic wise programming Questions and their Solutions in Javascript.
+### Resources:
+- https://www.bigocheatsheet.com/
+- https://seanprashad.com/leetcode-patterns/
+- GeeksForGeeks [Link](https://www.geeksforgeeks.org/).
+- Coding Interview University referred by Google Recruiter for Google Interview Preparation [Link](https://github.com/jwasham/coding-interview-university/).
