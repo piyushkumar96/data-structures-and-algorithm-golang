@@ -1,5 +1,5 @@
-# data-structures-and-algorithm-javascript
-Data Structures and Algorithm in Javascript
+# data-structures-and-algorithm-golang
+Data Structures and Algorithm in Golang
 
 Hi there! 👋
 
@@ -34,7 +34,7 @@ I'm maintaining this repo solely for the purpose of brushing up my DS Algo conce
 - GeeksForGeeks [Link](https://www.geeksforgeeks.org/).
 - Coding Interview University referred by Google Recruiter for Google Interview Preparation [Link](https://github.com/jwasham/coding-interview-university/).
 
-> Note: This repo contains the topic wise programming Questions and their Solutions in Javascript.
+> Note: This repo contains the topic wise programming Questions and their Solutions in Golang.
 
 ### Resources:
 - https://www.bigocheatsheet.com/
