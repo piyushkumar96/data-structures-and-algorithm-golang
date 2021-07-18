@@ -10,3 +10,16 @@
    | Method | TimeComplexity | SpaceComplexity | Source |
    |---|---|---|---|
    | Using Queue | O(N) | O(N) | [Link](/10.%20Binary%20Tree/1.level-order-traversal-solution.go) |
+   
+  2. Level Order Build Tree Problem.
+      <br /> [Question](/10.%20Binary%20Tree/docs/2.level-order-build-tree-question.jpg)
+      <br /> [Solution](/10.%20Binary%20Tree/2.level-order-build-tree-solution.go)
+      <br /> Command:-
+      ```shell
+      $ go run 2.level-order-build-tree-solution.go < 1.input-file.txt
+      ```
+   
+      | Method | TimeComplexity | SpaceComplexity | Source |
+      |---|---|---|---|
+      | Using Queue | O(N) | O(N) | [Link](/10.%20Binary%20Tree/2.level-order-build-tree-solution.go) |
+      
