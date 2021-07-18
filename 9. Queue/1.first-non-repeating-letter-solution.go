@@ -18,8 +18,9 @@ func (q *Queue) pop() (interface{}, bool) {
 	if q.isEmpty() {
 		return "", false
 	} else {
+		ele := (*q)[0]
 		*q = (*q)[1:]
-		return (*q)[0], true
+		return ele, true
 	}
 }
 
