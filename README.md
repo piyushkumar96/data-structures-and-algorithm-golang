@@ -5,21 +5,22 @@ Hi there! 👋
 
 I'm maintaining this repo solely for the purpose of brushing up my DS Algo concepts before an interview. 
 ### Topics
-1. Array and Vectors Problems.
-2. String Problems.
+1. Array and Vectors Problems (Inprogress).
+2. String Problems (Inprogress).
 3. Sliding Window Problems (Inprogress).
 4. Searching and Sorting Problems (Inprogress).
 5. Binary Search Problems (Inprogress).
 6. Recursion Problems (Inprogress).
 7. Linked List Problems (Inprogress).
-8. Stack and Queue Problems (Inprogress).
-9. Binary Tree Problems (Inprogress).
-10. BST Problems (Inprogress).
-11. Priority Queue Problems (Inprogress).
-12. Hashing Problems (Inprogress).
-13. Tries and Pattern Matching (Inprogress).
-14. Graph Problems (Inprogress).
-15. Dynamic Programming (Inprogress).
+8. Stack Problems (Inprogress).
+9. Queue Problems (Inprogress).
+10. Binary Tree Problems (Inprogress).
+11. BST Problems (Inprogress).
+12. Priority Queue Problems (Inprogress).
+13. Hashing Problems (Inprogress).
+14. Tries and Pattern Matching (Inprogress).
+15. Graph Problems (Inprogress).
+16. Dynamic Programming (Inprogress).
 
 > Note: This is not a complete guide for interview preparation.
 
