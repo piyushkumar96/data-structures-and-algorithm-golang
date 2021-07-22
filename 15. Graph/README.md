@@ -21,3 +21,15 @@
    | Method | TimeComplexity | SpaceComplexity | Source |
    |---|---|---|---|
    | Using Queue | O(N+E) | O(V) | [Link](/15.%20Graph/2.bfs-graph-iterative-solution.go) |  
+
+3. Recursive BFS Graph Traversal Problem.
+   <br /> [Question](/15.%20Graph/docs/3.bfs-graph-recursive-question.jpg)
+   <br /> [Solution](/15.%20Graph/3.bfs-graph-recursive-solution.go)
+   <br /> Command:-
+   ```shell
+   $ go run 3.bfs-graph-recursive-solution.go
+   ```
+
+   | Method | TimeComplexity | SpaceComplexity | Source |
+   |---|---|---|---|
+   | Using Queue | O(N+E) | O(V) | [Link](/15.%20Graph/3.bfs-graph-recursive-solution.go) |  
