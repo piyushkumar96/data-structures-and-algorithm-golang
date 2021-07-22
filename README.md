@@ -5,7 +5,7 @@ Hi there! 👋
 
 I'm maintaining this repo solely for the purpose of brushing up my DS Algo concepts before an interview. 
 ### Topics
-1. Array and Vectors Problems (Inprogress).
+1. Array and Slices Problems (Inprogress).
 2. String Problems (Inprogress).
 3. Sliding Window Problems (Inprogress).
 4. Searching and Sorting Problems (Inprogress).
