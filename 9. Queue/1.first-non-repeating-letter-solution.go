@@ -6,6 +6,10 @@ import (
 
 type Queue []interface{}
 
+func CreateQueue() *Queue {
+	return &Queue{}
+}
+
 func (q *Queue) isEmpty() bool {
 	return len(*q) == 0
 }
@@ -16,7 +20,7 @@ func (q *Queue) push(item interface{}) {
 
 func (q *Queue) pop() (interface{}, bool) {
 	if q.isEmpty() {
-		return "", false
+		return nil, false
 	} else {
 		ele := (*q)[0]
 		*q = (*q)[1:]
@@ -35,7 +39,7 @@ func (q *Queue) popAtIndex(index int) bool {
 
 func (q *Queue) peek() (interface{}, bool) {
 	if q.isEmpty() {
-		return "", false
+		return nil, false
 	} else {
 		return (*q)[0], true
 	}
@@ -52,7 +56,7 @@ func linearSearch(arr []interface{}, item string) int {
 }
 
 func firstNonRepeatingLetter(str string) []string {
-	var q Queue
+	q := CreateQueue()
 	var res []string
 	if len(str) == 0 {
 		return res
@@ -62,7 +66,7 @@ func firstNonRepeatingLetter(str string) []string {
 	for _, v := range str {
 		_, ok := m[string(v)]
 		if ok {
-			index := linearSearch(q, string(v))
+			index := linearSearch(*q, string(v))
 			if index != -1 {
 				q.popAtIndex(index)
 			}
@@ -100,5 +104,6 @@ func main() {
 	for _, v := range result {
 		fmt.Printf("%s ", string(v))
 	}
+	fmt.Println()
 
 }
