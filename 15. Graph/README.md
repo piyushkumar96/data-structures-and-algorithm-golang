@@ -33,3 +33,15 @@
    | Method | TimeComplexity | SpaceComplexity | Source |
    |---|---|---|---|
    | Using Queue | O(N+E) | O(V) | [Link](/15.%20Graph/3.bfs-graph-recursive-solution.go) |  
+   
+4. Iterative DFS Graph Traversal Problem.
+   <br /> [Question](/15.%20Graph/docs/4.dfs-graph-iterative-question.jpg)
+   <br /> [Solution](/15.%20Graph/4.dfs-graph-iterative-solution.go)
+   <br /> Command:-
+   ```shell
+   $ go run 4.dfs-graph-iterative-solution.go
+   ```
+
+   | Method | TimeComplexity | SpaceComplexity | Source |
+   |---|---|---|---|
+   | Using Stack | O(N+E) | O(V) | [Link](/15.%20Graph/4.dfs-graph-iterative-solution.go) |     
