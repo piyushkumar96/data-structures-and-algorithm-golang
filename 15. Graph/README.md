@@ -45,3 +45,15 @@
    | Method | TimeComplexity | SpaceComplexity | Source |
    |---|---|---|---|
    | Using Stack | O(N+E) | O(V) | [Link](/15.%20Graph/4.dfs-graph-iterative-solution.go) |     
+   
+5. Recursive DFS Graph Traversal Problem.
+   <br /> [Question](/15.%20Graph/docs/5.dfs-graph-recursive-question.jpg)
+   <br /> [Solution](/15.%20Graph/5.dfs-graph-recursive-solution.go)
+   <br /> Command:-
+   ```shell
+   $ go run 5.dfs-graph-recursive-solution.go
+   ```
+
+   | Method | TimeComplexity | SpaceComplexity | Source |
+   |---|---|---|---|
+   | Using Recursion | O(N+E) | O(V) | [Link](/15.%20Graph/5.dfs-graph-recursive-solution.go) |   
