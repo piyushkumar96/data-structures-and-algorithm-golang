@@ -33,4 +33,17 @@
  
     | Method | TimeComplexity | SpaceComplexity | Source |
     |---|---|---|---|
-    | 2 pointers | O(N) | O(1) | [Link](/1.%20Arrays%20and%20Slices/3.highest-length-mountain-solution.go) |     
+    | 2 pointers | O(N) | O(1) | [Link](/1.%20Arrays%20and%20Slices/3.highest-length-mountain-solution.go) |
+    
+4. Longest Band of Consecutive Number Problem.
+   <br /> [Question](/1.%20Arrays%20and%20Slices/docs/4.longest-band-length-question.jpg)
+   <br /> [Solution](/1.%20Arrays%20and%20Slices/4.longest-band-length-solution.go)
+    <br /> Command:-
+     ```shell
+     $ go run 4.longest-band-length-solution.go
+     ```
+  
+     | Method | TimeComplexity | SpaceComplexity | Source |
+     |---|---|---|---|
+     | set and 2 pointers | O(N) | O(N) | [Link](/1.%20Arrays%20and%20Slices/4.longest-band-length-solution.go) |  
+            
