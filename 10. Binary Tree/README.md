@@ -70,4 +70,16 @@
      | Method | TimeComplexity | SpaceComplexity | Source |
      |---|---|---|---|
      | Iterative using stack | O(N) | O(N) | [Link](/10.%20Binary%20Tree/6.inorder-traversal-iterative-solution.go) |  
+     
+7. Recursive Post Order Traversal Problem.
+     <br /> [Question](/10.%20Binary%20Tree/docs/7.postorder-traversal-recursive-question.jpg)
+     <br /> [Solution](/10.%20Binary%20Tree/7.postorder-traversal-recursive-solution.go)
+     <br /> Command:-
+     ```shell
+     $ go run 7.postorder-traversal-recursive-solution.go < 0.input-file.txt
+     ```
+  
+     | Method | TimeComplexity | SpaceComplexity | Source |
+     |---|---|---|---|
+     | Recursive | O(N) | O(N) | [Link](/10.%20Binary%20Tree/7.postorder-traversal-recursive-solution.go) |      
                    
