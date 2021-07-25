@@ -33,4 +33,16 @@
  
     | Method | TimeComplexity | SpaceComplexity | Source |
     |---|---|---|---|
-    | Recursive | O(N) | O(N) | [Link](/10.%20Binary%20Tree/3.preorder-traversal-recursive-solution.go) |     
+    | Recursive | O(N) | O(N) | [Link](/10.%20Binary%20Tree/3.preorder-traversal-recursive-solution.go) |  
+    
+ 4. Iterative Pre Order Traversal Problem.
+     <br /> [Question](/10.%20Binary%20Tree/docs/4.preorder-traversal-iterative-question.jpg)
+     <br /> [Solution](/10.%20Binary%20Tree/4.preorder-traversal-iterative-solution.go)
+     <br /> Command:-
+     ```shell
+     $ go run 4.preorder-traversal-iterative-solution.go < 1.input-file.txt
+     ```
+  
+     | Method | TimeComplexity | SpaceComplexity | Source |
+     |---|---|---|---|
+     | Iterative using stack | O(N) | O(N) | [Link](/10.%20Binary%20Tree/4.preorder-traversal-iterative-solution.go) |      
