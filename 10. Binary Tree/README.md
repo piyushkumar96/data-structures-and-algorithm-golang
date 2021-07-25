@@ -16,7 +16,7 @@
       <br /> [Solution](/10.%20Binary%20Tree/2.level-order-build-tree-solution.go)
       <br /> Command:-
       ```shell
-      $ go run 2.level-order-build-tree-solution.go < 1.input-file.txt
+      $ go run 2.level-order-build-tree-solution.go < 0.input-file.txt
       ```
    
       | Method | TimeComplexity | SpaceComplexity | Source |
@@ -28,7 +28,7 @@
     <br /> [Solution](/10.%20Binary%20Tree/3.preorder-traversal-recursive-solution.go)
     <br /> Command:-
     ```shell
-    $ go run 3.preorder-traversal-recursive-solution.go < 1.input-file.txt
+    $ go run 3.preorder-traversal-recursive-solution.go < 0.input-file.txt
     ```
  
     | Method | TimeComplexity | SpaceComplexity | Source |
@@ -40,9 +40,21 @@
      <br /> [Solution](/10.%20Binary%20Tree/4.preorder-traversal-iterative-solution.go)
      <br /> Command:-
      ```shell
-     $ go run 4.preorder-traversal-iterative-solution.go < 1.input-file.txt
+     $ go run 4.preorder-traversal-iterative-solution.go < 0.input-file.txt
      ```
   
      | Method | TimeComplexity | SpaceComplexity | Source |
      |---|---|---|---|
-     | Iterative using stack | O(N) | O(N) | [Link](/10.%20Binary%20Tree/4.preorder-traversal-iterative-solution.go) |      
+     | Iterative using stack | O(N) | O(N) | [Link](/10.%20Binary%20Tree/4.preorder-traversal-iterative-solution.go) |  
+     
+ 5. Recursive In Order Traversal Problem.
+     <br /> [Question](/10.%20Binary%20Tree/docs/5.inorder-traversal-recursive-question.jpg)
+     <br /> [Solution](/10.%20Binary%20Tree/5.inorder-traversal-recursive-solution.go)
+     <br /> Command:-
+     ```shell
+     $ go run 5.inorder-traversal-recursive-solution.go < 0.input-file.txt
+     ```
+  
+     | Method | TimeComplexity | SpaceComplexity | Source |
+     |---|---|---|---|
+     | Recursive | O(N) | O(N) | [Link](/10.%20Binary%20Tree/5.inorder-traversal-recursive-solution.go) |          
