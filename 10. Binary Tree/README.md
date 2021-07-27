@@ -94,4 +94,16 @@
      | Method | TimeComplexity | SpaceComplexity | Source |
      |---|---|---|---|
      | Iterative using stack | O(N) | O(N) | [Link](/10.%20Binary%20Tree/8.postorder-traversal-iterative-solution.go) |            
-                   
+
+9. Height of Binary Tree Problem.
+   <br /> [Question](/10.%20Binary%20Tree/docs/9.height-of-tree-question.jpg)
+   <br /> [Solution](/10.%20Binary%20Tree/9.height-of-tree-solution.go)
+   <br /> Command:-
+   ```shell
+   $ g++ -std=c++14 9.height-of-tree-solution.go -o test
+   $ ./test < 0.input-file.txt
+   ```
+
+   | Method | TimeComplexity | SpaceComplexity | Source |
+   |---|---|---|---|
+   | Recursive | O(N) | O(1) | [Link](/10.%20Binary%20Tree/9.height-of-tree-solution.go) |                   
