@@ -100,10 +100,27 @@
    <br /> [Solution](/10.%20Binary%20Tree/9.height-of-tree-solution.go)
    <br /> Command:-
    ```shell
-   $ g++ -std=c++14 9.height-of-tree-solution.go -o test
+   $ go run 9.height-of-tree-solution.go < 0.input-file.txt
    $ ./test < 0.input-file.txt
    ```
 
    | Method | TimeComplexity | SpaceComplexity | Source |
    |---|---|---|---|
-   | Recursive | O(N) | O(1) | [Link](/10.%20Binary%20Tree/9.height-of-tree-solution.go) |                   
+   | Recursive | O(N) | O(N) | [Link](/10.%20Binary%20Tree/9.height-of-tree-solution.go) |
+   
+10. Diameter of Binary Tree Problem.
+   <br /> [Question](/10.%20Binary%20Tree/docs/10.diameter-of-tree-question.jpg)
+   <br /> [Solution O(N^2)](/10.%20Binary%20Tree/10.diameter-of-tree-o(n^2)-solution.go)
+   <br /> [Solution O(N)](/10.%20Binary%20Tree/10.diameter-of-tree-o(n)-solution.go)
+   <br /> Command:-
+   ```shell
+   $ go run 10.diameter-of-tree-o(n^2)-solution.go < 0.input-file.txt
+
+   $ go run 10.diameter-of-tree-o(n)-solution.go < 0.input-file.txt
+   ```
+
+   | Method | TimeComplexity | SpaceComplexity | Source |
+   |---|---|---|---|
+   | Calculating height and diameter in different call | O(N^2) | O(N) | [Link](/10.%20Binary%20Tree/10.diameter-of-tree-o(n^2)-solution.go) |
+   | Calculating height and diameter in same call | O(N) | O(N) | [Link](/10.%20Binary%20Tree/10.diameter-of-tree-o(n)-solution.go) |
+                      

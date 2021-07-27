@@ -1,6 +1,9 @@
 package util
 
-import "fmt"
+import (
+	"fmt"
+	"math"
+)
 
 type Tree struct {
 	Root *Node
@@ -55,4 +58,15 @@ func (t *Tree) PrintTree() {
 	}
 	fmt.Println("Tree: ")
 	LevelOrderTraversal(t.Root)
+}
+
+func HeightOfTree(root *Node) int {
+	if root == nil {
+		return 0
+	}
+
+	lh := HeightOfTree(root.Left)
+	rh := HeightOfTree(root.Right)
+
+	return int(math.Max(float64(lh), float64(rh))) + 1
 }
