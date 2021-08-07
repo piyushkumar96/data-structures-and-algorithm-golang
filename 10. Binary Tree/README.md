@@ -148,8 +148,8 @@
     
        | Method | TimeComplexity | SpaceComplexity | Source |
        |---|---|---|---|
-       | Calculating height and balance check in different call | O(N^2) | O(N) | [Link](/10.%20Binary%20Tree/12.is-balanced-tree-o(n^2)-solution.go) |
-       | Calculating height and balance check in same call | O(N) | O(N) | [Link](/10.%20Binary%20Tree/12.is-balanced-tree-o(n)-solution.go) |
+       | Calculating height and balance check in different call | O(N^2) | O(1) | [Link](/10.%20Binary%20Tree/12.is-balanced-tree-o(n^2)-solution.go) |
+       | Calculating height and balance check in same call | O(N) | O(1) | [Link](/10.%20Binary%20Tree/12.is-balanced-tree-o(n)-solution.go) |
    
    13. Max Sub Set Sum Tree Problem.
         <br /> [Question](/10.%20Binary%20Tree/docs/13.max-sub-set-sum-question.jpg)
@@ -162,5 +162,18 @@
        
        | Method | TimeComplexity | SpaceComplexity | Source |
        |---|---|---|---|
-       | Recursive | O(N) | O(N) | [Link](/10.%20Binary%20Tree/13.max-sub-set-sum-solution.go) |
-                         
+       | Recursive | O(N) | O(1) | [Link](/10.%20Binary%20Tree/13.max-sub-set-sum-solution.go) |
+
+   14. Nodes At Distance k from target Node (Sorted) Problem.
+        <br /> [Question](/10.%20Binary%20Tree/docs/14.BinaryTree-Question14.jpg)
+        <br /> [Solution](/10.%20Binary%20Tree/14.nodes-at-kth-distance-from-target-node-solution.go)
+        <br /> Command:-
+      
+        ```shell
+        $ go run 14.nodes-at-kth-distance-from-target-node-solution.go
+        ```
+       
+       | Method | TimeComplexity | SpaceComplexity | Source |
+       |---|---|---|---|
+       | Recursive | O(N) | O(1) | [Link](/10.%20Binary%20Tree/14.nodes-at-kth-distance-from-target-node-solution.go) |
+                                              
