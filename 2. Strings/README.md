@@ -47,6 +47,6 @@
 
    | Method | TimeComplexity | SpaceComplexity | Source |
    |---|---|---|---|
-   | Recursive | O(2^N) | O(1) | [Link](/2.%20Strings/4.check-one-string-is-subsequence-of-another-recursive-solution.go) |
+   | Recursive | O(N) | O(1) | [Link](/2.%20Strings/4.check-one-string-is-subsequence-of-another-recursive-solution.go) |
    | Iterative | O(N) | O(1) | [Link](/2.%20Strings/4.check-one-string-is-subsequence-of-another-recursive-solution.go) |
       
