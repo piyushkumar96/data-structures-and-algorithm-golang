@@ -35,3 +35,18 @@
    |---|---|---|---|
    | sort.Slice in built | O(NlogN) | O(N) | [Link](/2.%20Strings/3.custom-sort-strings-solution.go) |
    
+4. Check one string is subsequence of another string Problem.
+   <br /> [Question](/2.%20Strings/docs/4.check-one-string-is-subsequence-of-another-question.jpg)
+   <br /> [Solution Recursive](/2.%20Strings/4.check-one-string-is-subsequence-of-another-recursive-solution.go)
+   <br /> [Solution Iterative](/2.%20Strings/4.check-one-string-is-subsequence-of-another-iterative-solution.go)
+   <br /> Command:-
+   ```shell
+   $ go run 4.check-one-string-is-subsequence-of-another-recursive-solution.go
+   $ go run 4.check-one-string-is-subsequence-of-another-iterative-solution.go
+   ```
+
+   | Method | TimeComplexity | SpaceComplexity | Source |
+   |---|---|---|---|
+   | Recursive | O(2^N) | O(1) | [Link](/2.%20Strings/4.check-one-string-is-subsequence-of-another-recursive-solution.go) |
+   | Iterative | O(N) | O(1) | [Link](/2.%20Strings/4.check-one-string-is-subsequence-of-another-recursive-solution.go) |
+      
