@@ -69,4 +69,16 @@
   
      | Method | TimeComplexity | SpaceComplexity | Source |
      |---|---|---|---|
-     | ---- | O(N) | O(1) | [Link](/1.%20Arrays%20and%20Slices/6.smallest-sub-array-sort-solution.go) |                 
+     | ---- | O(N) | O(1) | [Link](/1.%20Arrays%20and%20Slices/6.smallest-sub-array-sort-solution.go) |      
+     
+7. Minimum Swap to Sort Array Problem.
+   <br /> [Question](/1.%20Arrays%20and%20Slices/docs/7.minimum-swap-to-sort-array-question.jpg)
+   <br /> [Solution](/1.%20Arrays%20and%20Slices/7.minimum-swap-to-sort-array-solution.go)
+    <br /> Command:-
+     ```shell
+     $ go run 7.minimum-swap-to-sort-array-solution.go
+     ```
+  
+     | Method | TimeComplexity | SpaceComplexity | Source |
+     |---|---|---|---|
+     | sorting | O(NLogN) | O(1) | [Link](/1.%20Arrays%20and%20Slices/7.minimum-swap-to-sort-array-solution.go) |                      
