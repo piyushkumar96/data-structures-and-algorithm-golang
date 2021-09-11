@@ -57,4 +57,16 @@
   
      | Method | TimeComplexity | SpaceComplexity | Source |
      |---|---|---|---|
-     | Left and Right to store max height wall | O(N) | O(N) | [Link](/1.%20Arrays%20and%20Slices/5.maximum-rain-water-trap-solution.go) |              
+     | Left and Right to store max height wall | O(N) | O(N) | [Link](/1.%20Arrays%20and%20Slices/5.maximum-rain-water-trap-solution.go) |   
+     
+6. Sub Array Sorted Problem.
+   <br /> [Question](/1.%20Arrays%20and%20Slices/docs/6.smallest-sub-array-sort-question.jpg)
+   <br /> [Solution](/1.%20Arrays%20and%20Slices/6.smallest-sub-array-sort-solution.go)
+    <br /> Command:-
+     ```shell
+     $ go run 6.smallest-sub-array-sort-solution.go
+     ```
+  
+     | Method | TimeComplexity | SpaceComplexity | Source |
+     |---|---|---|---|
+     | ---- | O(N) | O(1) | [Link](/1.%20Arrays%20and%20Slices/6.smallest-sub-array-sort-solution.go) |                 
