@@ -46,4 +46,15 @@
      | Method | TimeComplexity | SpaceComplexity | Source |
      |---|---|---|---|
      | set and 2 pointers | O(N) | O(N) | [Link](/1.%20Arrays%20and%20Slices/4.longest-band-length-solution.go) |  
-            
+
+5. Max Rain Water Trap Problem.
+   <br /> [Question](/1.%20Arrays%20and%20Slices/docs/5.maximum-rain-water-trap-question.jpg)
+   <br /> [Solution](/1.%20Arrays%20and%20Slices/5.maximum-rain-water-trap-solution.go)
+    <br /> Command:-
+     ```shell
+     $ go run 5.maximum-rain-water-trap-solution.go
+     ```
+  
+     | Method | TimeComplexity | SpaceComplexity | Source |
+     |---|---|---|---|
+     | Left and Right to store max height wall | O(N) | O(N) | [Link](/1.%20Arrays%20and%20Slices/5.maximum-rain-water-trap-solution.go) |              
