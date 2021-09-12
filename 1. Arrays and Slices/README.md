@@ -118,4 +118,16 @@
       | Method | TimeComplexity | SpaceComplexity | Source |
       |---|---|---|---|
       | Left and Right Product | O(N) | O(N) | [Link](/1.%20Arrays%20and%20Slices/10.array-products-without-division-solution.go) |    
+
+11. Count Activities Problem.
+    <br /> [Question](/1.%20Arrays%20and%20Slices/docs/11.count-maximum-number-of-activites-question.jpg)
+    <br /> [Solution](/1.%20Arrays%20and%20Slices/11.count-maximum-number-of-activites-solution.go)
+     <br /> Command:-
+      ```shell
+      $ go run 11.count-maximum-number-of-activites-solution.go
+      ```
+   
+      | Method | TimeComplexity | SpaceComplexity | Source |
+      |---|---|---|---|
+      | Sorting | O(N) | O(N) | [Link](/1.%20Arrays%20and%20Slices/11.count-maximum-number-of-activites-solution.go) |    
                                               
