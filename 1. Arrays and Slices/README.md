@@ -93,4 +93,17 @@
   
      | Method | TimeComplexity | SpaceComplexity | Source |
      |---|---|---|---|
-     | Kadane Algorithm | O(N) | O(1) | [Link](/1.%20Arrays%20and%20Slices/8.maximum-sub-array-sum-solution.go) |                           
+     | Kadane Algorithm | O(N) | O(1) | [Link](/1.%20Arrays%20and%20Slices/8.maximum-sub-array-sum-solution.go) |
+ 
+ 9. Minimum Difference between two Arrays element Problem.
+    <br /> [Question](/1.%20Arrays%20and%20Slices/docs/9.minimum-difference-pair-of-arrays-element-question.jpg)
+    <br /> [Solution](/1.%20Arrays%20and%20Slices/9.minimum-difference-pair-of-arrays-element-solution.go)
+     <br /> Command:-
+      ```shell
+      $ go run 9.minimum-difference-pair-of-arrays-element-solution.go
+      ```
+   
+      | Method | TimeComplexity | SpaceComplexity | Source |
+      |---|---|---|---|
+      | sorting | O(NLogN) | O(1) | [Link](/1.%20Arrays%20and%20Slices/9.minimum-difference-pair-of-arrays-element-solution.go) |    
+                                
